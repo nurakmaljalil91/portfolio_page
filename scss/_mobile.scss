@@ -1,5 +1,8 @@
 // wide screen
 @include mediaXL {
+  main{
+    align-items: center;
+  }
   .projects{
     grid-template-columns: repeat(4,1fr);
   }
@@ -7,6 +10,9 @@
 
 // Deskdtop & laptop
 @include mediaLg {
+  main{
+    align-items: center;
+  }
   .projects{
     grid-template-columns: repeat(3,1fr);
   }
@@ -72,7 +78,13 @@
 // Smartphone
 @include mediaSm {
   main#home h1 {
+    padding: 2rem;
     margin-top: 10vh;
+  }
+
+  .lg-heading{
+    margin-top: 1rem;
+    font-size: 5rem;
   }
 
   .projects{
