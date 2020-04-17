@@ -1,17 +1,19 @@
 {
-  "name": "portfolio-page",
-  "version": "1.0.0",
-  "description": "my own portfolio page",
-  "main": "index.js",
-  "homepage": "https://nurakmaljalil91.github.io/portfolio_page",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive --use-polling --polling-interval 1000",
-    "deploy": "gh-pages -d dist"
-  },
-  "author": "Nur Akmal \"arcmole007\"",
-  "license": "ISC",
-  "dependencies": {
-    "gh-pages": "^2.0.1",
-    "node-sass": "^4.12.0"
-  }
+    "name": "portfolio-page",
+    "version": "1.0.0",
+    "description": "my own portfolio page",
+    "main": "index.js",
+    "homepage": "https://nurakmaljalil91.github.io/portfolio_page",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive --use-polling --polling-interval 1000",
+        "deploy": "gh-pages -d dist"
+    },
+    "author": "Nur Akmal \"arcmole007\"",
+    "license": "ISC",
+    "dependencies": {
+        "gh-pages": "^2.0.1",
+        "node-sass": "^4.12.0",
+        "minimist": ">=1.2.3",
+        "lodash": ">=4.17.12"
+    }
 }
